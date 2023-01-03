@@ -3,4 +3,5 @@ using EmployeeWageProblems;
 
 Console.WriteLine("Welcome To EmployeeWage Computation Problems");
 
-UC1_EmployeePresentOrAbsent.CheckEmployeeStatus();
+//UC1_EmployeePresentOrAbsent.CheckEmployeeStatus();
+UC2_DailyEmployeeWage.DailyWage();
