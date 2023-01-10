@@ -9,4 +9,6 @@ using EmployeeWageProblems;
 //UC4_SwitchCase_Statement.EmployeeWagesUsingSwitch();
 //UC5_Month_Wage.SalaryFor20DaysInMonth();
 //UC6_TotalWorkingHoursandDays.EmpSalaryFor100Hrs();
-UC7_RefractorCodeOfEmployeeWage.ComputeSalaryUsingClassMethod();
+//UC7_RefractorCodeOfEmployeeWage.ComputeSalaryUsingClassMethod();
+UC8_MultipleCompanyEmployeeWage.ComputeEmpWage("DMart ", 20, 2, 10);
+UC8_MultipleCompanyEmployeeWage.ComputeEmpWage("Amazon ", 10, 4, 20);
