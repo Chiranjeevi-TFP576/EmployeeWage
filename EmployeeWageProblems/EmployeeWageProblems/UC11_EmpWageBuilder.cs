@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeWageProblems
 {
-    public  class UC10_EmpWageBuilder
+    internal class UC11_EmpWageBuilder : IEmployee
     {
         public const int IS_PART_TIME = 1;
         public const int IS_FUL_TIME = 2;
@@ -14,7 +14,7 @@ namespace EmployeeWageProblems
         private int numOfCompany = 0;
         private CompanyEmpWage[] companyEmpWageArray;
 
-        public UC10_EmpWageBuilder()
+        public UC11_EmpWageBuilder()
         {
             this.companyEmpWageArray = new CompanyEmpWage[5];
         }
@@ -61,7 +61,4 @@ namespace EmployeeWageProblems
             return totalHr * companyEmpWage.empRatePerHour;
         }
     }
-
-    
-    
 }
