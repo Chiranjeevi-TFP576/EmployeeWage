@@ -12,9 +12,15 @@ using EmployeeWageProblems;
 //UC7_RefractorCodeOfEmployeeWage.ComputeSalaryUsingClassMethod();
 //UC8_MultipleCompanyEmployeeWage.ComputeEmpWage("DMart ", 20, 2, 10);
 //UC8_MultipleCompanyEmployeeWage.ComputeEmpWage("Amazon ", 10, 4, 20);
-UC9_WagesForEachCompany dmart = new UC9_WagesForEachCompany("Dmart", 20, 2, 10);
-dmart.computeEmpWage();
-Console.WriteLine(dmart.tostring());
-UC9_WagesForEachCompany Reliance = new UC9_WagesForEachCompany("Reliance", 20, 2, 10);
-Reliance.computeEmpWage();
-Console.WriteLine(Reliance.tostring());
+//UC9_WagesForEachCompany dmart = new UC9_WagesForEachCompany("Dmart", 20, 2, 10);
+//dmart.computeEmpWage();
+//Console.WriteLine(dmart.tostring());
+//UC9_WagesForEachCompany Reliance = new UC9_WagesForEachCompany("Reliance", 20, 2, 10);
+//Reliance.computeEmpWage();
+//Console.WriteLine(Reliance.tostring());
+
+UC10_EmpWageBuilder empWageBuilder = new UC10_EmpWageBuilder();
+
+empWageBuilder.addCompanyEmpWage("Dmart", 20, 2, 10);
+empWageBuilder.addCompanyEmpWage("Reliance", 10, 4, 20);
+empWageBuilder.computeEmpWage();
