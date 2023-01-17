@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeWageProblems
 {
-    internal class UC13_EmpWageBuilder
+    public class EmpWageBuilder : IEmployee
     {
         public const int IS_PART_TIME = 1;
         public const int IS_FUL_TIME = 2;
@@ -14,7 +14,7 @@ namespace EmployeeWageProblems
         private LinkedList<CompanyEmpWage> companyEmpWageList;
         private Dictionary<string, CompanyEmpWage> companyToEmpWageMap;
 
-        public UC13_EmpWageBuilder()
+        public EmpWageBuilder()
         {
             this.companyEmpWageList = new LinkedList<CompanyEmpWage>();
             this.companyToEmpWageMap = new Dictionary<string, CompanyEmpWage>();
