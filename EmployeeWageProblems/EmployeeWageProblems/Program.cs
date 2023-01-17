@@ -29,7 +29,11 @@ using EmployeeWageProblems;
 //empWageBuilder.addCompanyEmpWage("Reliance", 10, 4, 20);
 //empWageBuilder.computeEmpWage();
 
-UC12_EmpWageBuilder empWageBuilder = new UC12_EmpWageBuilder();
+//UC12_EmpWageBuilder empWageBuilder = new UC12_EmpWageBuilder();
+//empWageBuilder.addCompanyEmpWage("Dmart", 20, 2, 10);
+//empWageBuilder.addCompanyEmpWage("Reliance", 10, 4, 20);
+//empWageBuilder.computeEmpWage();
+UC13_EmpWageBuilder empWageBuilder = new UC13_EmpWageBuilder();
 empWageBuilder.addCompanyEmpWage("Dmart", 20, 2, 10);
 empWageBuilder.addCompanyEmpWage("Reliance", 10, 4, 20);
 empWageBuilder.computeEmpWage();
